@@ -8,7 +8,6 @@ from langchain_community.embeddings.sentence_transformer import (
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_huggingface import HuggingFaceEmbeddings
 
 
 model = ChatMistralAI(endpoint="http://localhost:5050/v1/", api_key="not-needed")
